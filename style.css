@@ -1,0 +1,133 @@
+body{
+	background-color:black;
+	font:18px arial;
+	color:white;
+}
+p{
+	font:arial;
+	font-size: 133%;
+	color:white;
+	text-align:center;
+}
+h1{
+	font:arial;
+	font-size: 133%;
+	color:white;
+	text-align:center;
+}
+h2{
+	font:arial;
+	font-size: 100%;
+	color:white;
+	text-align:center;
+}
+h6{
+	font:arial;
+	font-size: 70%;
+	color:white;
+	text-align:center;
+}
+div.gridDiv3cols{
+	display: grid;
+	margin: auto;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	max-width: 500px;
+	gap: 8px;
+}
+div.gridDiv1col{
+	display: grid;
+	margin: auto;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	max-width: 1000px;
+	gap: 8px;
+}
+
+a:link, a:visited{
+	color: lightgray;
+}
+
+a.ammoLink:link, a.ammoLink:visited{
+	color: white;
+	text-decoration:none;
+}
+
+a.topMenuLink:link, a.topMenuLink:visited {
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 8px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 6px;
+}
+
+img.imageLink{
+	width:90%;
+	padding: 5% 5%;
+}
+img.image100{
+	width:100%;
+}
+img.image100Mirrored{
+	width:100%;
+	transform: scaleX(-1);
+}
+
+
+
+.animalImageContainer {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.animalImageContainer2 {
+	position: relative;
+	max-width: 144px;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+
+.scoreText {
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	font-size: 133%;
+	text-shadow: 1px 1px #000000;
+}
+.centeredImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 12px;
+}
+
+iframe.ammoFrame{
+	display:block;
+	border:none;
+	max-width: 800px;
+	width: 100%;
+}
+div.ammoFrameDiv{
+	display: flex;
+	justify-content: center;
+	height: 90%;
+}
+div.topMenuFrameDiv{
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+div.ammoListDiv{
+	padding: 2px 2px;
+	border-style: solid;
+	border-color: darkgrey;
+	border-width: 1px;
+	border-radius: 6px;
+}
