@@ -35,6 +35,12 @@ div.gridDiv3cols{
 	max-width: 500px;
 	gap: 8px;
 }
+div.gridDiv4cols{
+	display: grid;
+	margin: auto;
+	grid-template-columns: auto auto auto auto;
+	max-width: 500px;
+}
 div.gridDiv1col{
 	display: grid;
 	margin: auto;
@@ -42,6 +48,27 @@ div.gridDiv1col{
 	grid-template-rows: auto;
 	max-width: 1000px;
 	gap: 8px;
+}
+div.animalGrid{
+	display: grid;
+	margin: auto;
+	grid-template-columns:25% auto;
+	max-width: 500px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+.animalText{
+	display: flex;
+	align-items: center;
+	font-size: 130%;
+	width: 95%;
+	padding-left: 5%;
+}
+
+div.animalGridRow{
+	height: 95%;
+	padding-bottom: 5%;
 }
 
 a:link, a:visited{
@@ -73,11 +100,19 @@ img.imageLink{
 img.image100{
 	width:100%;
 }
+img.animalGridImage{
+	max-width: 100px;
+}
 img.image100Mirrored{
 	width:100%;
 	transform: scaleX(-1);
 }
-
+img.ammoImage{
+	max-height: 180px;
+	max-width: 80%;
+	background-color:#101010;
+	object-fit: contain;
+}
 
 
 .animalImageContainer {
@@ -93,6 +128,12 @@ img.image100Mirrored{
 	color: white;
 	margin: auto;
 }
+.ammoImageContainer {
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+
 
 .scoreText {
 	position: absolute;
@@ -130,4 +171,10 @@ div.ammoListDiv{
 	border-color: darkgrey;
 	border-width: 1px;
 	border-radius: 6px;
+}
+div.animalListDiv{
+	display: flex;
+	justify-content: center;
+	height: 230%;
+	width: 100%;
 }
